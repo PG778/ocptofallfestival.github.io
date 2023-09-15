@@ -1,0 +1,15 @@
+#googleForm {
+  margin: auto;
+  height: 800px;
+  width: 800px;
+
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+}

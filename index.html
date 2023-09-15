@@ -1,7 +1,196 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <title>OC Fall Family Festival</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
+
+    <!--Stylesheets-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="images/modifiedFestivalLogo.png" alt="logo"
+        /></a>
+      </div>
+      <nav>
+        <a href="index.html" id="linkOn">Home</a>
+        <a href="activities.html">Activites</a>
+        <a href="vendors.html">Vendors</a>
+        <a href="foodTrucks.html">Food Trucks</a>
+        <a href="liveMusic.html">Live Music</a>
+        <a href="cornHole.html">Cornhole Tournament</a>
+        <a href="about.html">About</a>
+        <a href="registration.html">Registration</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <img
+          class="image-rectangle"
+          src="images/monkey.png"
+          alt="Rectangle Image"
+        />
+        <div class="centered">
+          Old Colony RVTHS PTO <br />3rd Annual <br />Fall Family Festival!
+        </div>
+        <p id="countdown"></p>
+        <p id="dateAndTime">10 · 14 · 23 - 11AM to 3PM</p>
+        <p id="address">476 North Ave, Rochester, MA 02770</p>
+      </div>
+
+      <a href="#scrollDown" id="downKaret"
+        ><img src="images/downKaret.png" alt="down karet" id="downKaretImage"
+      /></a>
+
+      <div id="scrollDown"></div>
+
+      <div class="column-container">
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="activities.html">
+              <img
+                src="images/festivalPictures/activityPicture.png"
+                alt="Activity Image"
+                class="indexPicture"
+              />
+            </a>
+          </div>
+
+          <div class="column-info">
+            <h2>Activities</h2>
+            <p>
+              There is something for everyone at the OC PTO Fall Family
+              Festival! Try the National Guard's giant obstacle course, archery
+              or shooting a basketball in a giant inflatable hoop. There are
+              crafts, face painting & more.
+            </p>
+          </div>
+        </div>
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="Trucks.html">
+              <img
+                src="images/festivalPictures/vendorPicture.png"
+                alt="Vendor Image"
+              />
+            </a>
+          </div>
+
+          <div class="column-info">
+            <h2>Vendors</h2>
+            <p>
+              Shop at a variety of local artisans and vendors booths.<br /><br />
+            </p>
+          </div>
+        </div>
+
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="foodTrucks.html">
+              <img
+                src="images/festivalPictures/foodTrucksPicture.png"
+                alt="Food Truck Image"
+              />
+            </a>
+          </div>
+
+          <div class="column-info">
+            <h2>Food Trucks</h2>
+            <p>Tacos, pizza, burgers and more!<br /><br /></p>
+          </div>
+        </div>
+
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="liveMusic.html">
+              <img
+                src="images/festivalPictures/liveMusicPicture.png"
+                alt="Live Music Image"
+              />
+            </a>
+          </div>
+          <div class="column-info">
+            <h2>Live Music</h2>
+            <p>
+              Enjoy music music from most genres, Rock, Pop Rock. Top 40 , Alt
+              Rock from the 80's to today from Southern New England's cover band
+              The Concept.
+            </p>
+          </div>
+        </div>
+
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="cornHole.html">
+              <img
+                src="images/festivalPictures/cornHolePicture.png"
+                alt="Corn Hole Image"
+              />
+            </a>
+          </div>
+          <div class="column-info">
+            <h2>Cornhole Tournament</h2>
+            <p>Register for our first Cornhole Tournament!<br /><br /></p>
+          </div>
+        </div>
+
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="about.html" class="">
+              <img
+                src="images/festivalPictures/aboutUsPicture.png"
+                alt="About Image"
+              />
+            </a>
+          </div>
+          <div class="column-info">
+            <h2>About Us</h2>
+            <p>Learn more about the Old Colony PTO.<br /><br /></p>
+          </div>
+        </div>
+
+        <div class="column reveal">
+          <div class="column-image">
+            <a href="registration.html">
+              <img
+                src="images/festivalPictures/registerPicture.png"
+                alt="Registration Image"
+              />
+            </a>
+          </div>
+          <div class="column-info">
+            <h2>Registration</h2>
+            <p>
+              Registration form for the Old Colony PTO 3rd Annual Fall Family
+              Festival.<br /><br />
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the same structure for other topics (Food Vendors, Activities, Registration) -->
+      </div>
+    </main>
+
+    <footer>
+      <p><b>Old Colony PTO Third Annual Fall Family Festival</b></p>
+      <p>476 North Ave, Rochester, MA 02770</p>
+      <p>Website made by the Old Colony Computer Science Class of 2024</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/countdown.js"></script>
+  </body>
 </html>

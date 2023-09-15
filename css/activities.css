@@ -1,0 +1,83 @@
+body {
+}
+h1 {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.container {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the activities and slideshow container */
+
+/* Style for the activities on the left */
+.activities {
+  line-height: 21pt;
+  margin-right: 5vh;
+}
+
+/* Style for the slideshow of images on the right */
+.slideshow-container {
+  max-width: 600px; /* Adjust the width as needed */
+  max-height: 600px;
+  
+}
+
+/* Style for the student exclusive at the bottom middle */
+.student-exclusive {
+  text-align: center;
+
+  background-color: #b2682c;
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  margin-bottom:5vh;
+}
+
+/* Style for the slideshow images */
+.slideshow-container img {
+  max-width: 600px; /* Adjust the width as needed */
+  max-height: 600px;
+  /* Add spacing between images */
+}
+.mySlides {
+  max-width: 600pxz; /* Adjust the width as needed */
+  max-height: 600px;
+}
+
+.list_and_slideShow {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b2682c;
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 5vh;
+
+  width: 70vw;
+  height: 40vw;
+}
+
+.note {
+  list-style: none;
+}
+
+li > a {
+  color: white;
+}
+li > a:hover {
+  opacity: 75%;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}

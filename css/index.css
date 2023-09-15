@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "fall";
+  src: url(../fonts/kg-fall-for-you/KGFallForYou.ttf);
+}
+
+.image-rectangle {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%;
+  display: block;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 2.5%;
+}
+.centered {
+  font-family: fall;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  width: 35%;
+}
+
+#countdown {
+  background-color: #d8b390;
+  border: 5px #b2682c solid;
+  width: 15%;
+  margin: 0 auto;
+  padding: 1% 2% 1% 2%;
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  font-family: fall;
+  font-size: 2vw;
+  transform: translate(-50%, -50%);
+}
+
+#dateAndTime {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  font-family: fall;
+  font-size: 1.8vw;
+  transform: translate(-50%, -50%);
+
+}
+
+#address {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  font-family: fall;
+  font-size: 1.3vw;
+  transform: translate(-50%, -50%);
+}
+
+/* Columns */
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1% auto;
+  opacity: 0; /* Start with zero opacity */
+  transform: translateY(50px); /* Start 50px below */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Animation transition */
+  width: 90vw;
+}
+
+.column-image {
+  flex: 1;
+  order: 2;
+  margin-left: 10px;
+}
+
+.column-info > h2 {
+  font-size: 1.5vw;
+}
+
+.column-info > p {
+  font-size: 1vw;
+}
+
+.column-info {
+  flex: 2;
+  order: 1;
+  padding: 20px;
+  background-color: #b2682c;
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10px;
+}
+
+.column:nth-child(even) .column-image {
+  order: 1;
+}
+
+.column:nth-child(even) .column-info {
+  order: 2;
+}
+
+.column-image img {
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 26vw;
+}
+
+/* Apply animation when the column enters the viewport */
+.reveal {
+  position: relative;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Down Karet */
+#downKaret {
+  margin-left: 48.5%;
+
+  overflow: auto;
+}
+#downKaretImage {
+  height: 2%;
+  width: 2%;
+
+  margin-top: 3%;
+}
+#scrollDown {
+  position: relative;
+  bottom: 60px;
+}

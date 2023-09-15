@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+  /* For the footer */
+  position: relative;
+  min-height: 100vh;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+  scroll-behavior: smooth;
+}
+
+main {
+  /* For the footer */
+  padding-bottom: 9%;
+}
+
+/* Nav Bar / Header */
+header {
+  color: #fff;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 8vw;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: bold;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+nav a:hover,
+header a:hover {
+  opacity: 75%;
+}
+
+#linkOn {
+  text-decoration: underline;
+}
+/* End Nav bar */
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#downKaret {
+  margin-left: 48.5%;
+
+  overflow: auto;
+}
+#downKaretImage {
+  height: 2%;
+  width: 2%;
+
+  margin-top: 3%;
+}
+#scrollDown {
+  position: relative;
+  bottom: 70px;
+}
+
+#banner {
+  width: 50vw;
+}
+
+.info-img {
+  width: 25vw;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom:5vh;
+}
+
+.text-info {
+  color: white;
+  text-align: center;
+  margin-left:5vw;
+  margin-right:5vw;
+}
+a {
+  color: #2488b8;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  color: white;
+}
+/*
+#24347f
+#ff9855
+*/

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" type="image/x-icon" href="images/icon.png" />
+  <title>Activities</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/activities.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/modifiedFestivalLogo.png" alt="logo" /></a>
+    </div>
+    <nav>
+      <!-- Home activites, vendors, food trucks, live music, corn hole, about, registration -->
+
+      <a href="index.html">Home</a>
+      <a href="activities.html" id="linkOn">Activites</a>
+      <a href="vendors.html">Vendors</a>
+      <a href="foodTrucks.html">Food Trucks</a>
+      <a href="liveMusic.html">Live Music</a>
+      <a href="cornHole.html">Cornhole Tournament</a>
+      <a href="about.html">About</a>
+      <a href="registration.html">Registration</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Activities</h1>
+
+      <div class="list_and_slideShow">
+        <div class="activities">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/vinnylovegrov/">Mr. Vinny the Bubble Guy</a>
+            </li>
+            <li class="note"><em>from 12:00 - 2:00</em></li>
+            <li>
+              <a
+                href="https://goofyfaces.com/artist-profile/?url=https://cobs.goofyfaces.com/caricature_new/artist_profile-new.php?artist_id=752">Goofy
+                Faces Caricatures*</a>
+            </li>
+            <li>Giant Inflatables</li>
+            <li class="note">
+              <em>Jousting, and Final Four Basketball </em>
+            </li>
+            <li>Antique Car Rides</li>
+            <li>Balloon Animals</li>
+            <li>Mass National Guard Obstacle Course</li>
+            <li>Laser Tag</li>
+            <li>Boy Scout Troop 31</li>
+            <li class = "note"> 
+              <em>Inflatable Axe Throwing and Archery</em>
+            </li>
+            <li>Crafts</li>
+            <li>Face Painting</li>
+            <li>Pictures with a variety of Characters</li>
+            <li class="note">from the Drama Club</li>
+            <li>Photo Booth</li>
+            <li>Corn Box</li>
+            <li>Tarot Readings*</li>
+            <li>Raffles*</li>
+            <li>Rochester Fire Department</li>
+            <li class = "note">
+              <em>Truck and Obstacle Course</em>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/hennabymeryl/">Henna*</a>
+            </li>
+            <li>Cornhole tournament*</li>
+
+            <li><em>* Additional Fee at Festival</em></li>
+          </ul>
+        </div>
+
+        <div class="activities-slideshow">
+          <div class="slideshow-container">
+            <!-- Smaller slideshow images -->
+            <div class="mySlides fade">
+              <img src="images/festivalPictures/ActivityFive.jpeg" alt="Image 1" class="slideImg" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/festivalPictures/ActivityFour.jpeg" alt="Image 2" class="slideImg" />
+            </div>
+            <!-- Add more images as needed -->
+          </div>
+        </div>
+      </div>
+
+      <div class="student-exclusive">
+        <h2>OC Student Exclusive Event</h2>
+        <p>Spike Ball Tournament for Old Colony Students Only</p>
+        <p>Cash prize: 1st place $250, 2nd place $150, 3rd place $100</p>
+        <p>See Mr. Busa for sign up</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p><b>Old Colony PTO Third Annual Fall Family Festival</b></p>
+    <p>476 North Ave, Rochester, MA 02770</p>
+    <p>Website made by the Old Colony Computer Science Class of 2024</p>
+  </footer>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1;
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+  </script>
+</body>
+
+</html>

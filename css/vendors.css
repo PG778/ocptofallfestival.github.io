@@ -1,0 +1,35 @@
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  background-color: #b2682c;
+  border: 5px #cd7f32 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+}
+.section h2 {
+  font-size: 25px;
+  color: black;
+}
+
+.section p {
+  font-size: 17px;
+  color: black;
+}
+
+.section > p > a {
+  text-decoration: underline;
+  color: white;
+}
+
+.section > p > a:hover {
+  opacity: 75%;
+}
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+#vendorHeader {
+  text-align: center;
+}
